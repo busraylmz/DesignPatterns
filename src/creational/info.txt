@@ -1,0 +1,1 @@
+Yaratıcı tasarım kalıpları (creational design patterns),  nesne yaratma sürecini soyutlayarak, nesnelerin doğrudan yaratılması yerine belirli kurallar çerçevesinde oluşturulmasını sağlar. Bu sayede yazılımın esnekliği ve yeniden kullanılabilirliği artar.
