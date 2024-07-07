@@ -9,9 +9,9 @@ Yapısal (Structural) Tasarım Kalıpları: Bu kalıplar, sınıflar ve nesneler
   Facade: Karmaşık bir sistemin basit bir arayüzünü sunar.
   Flyweight: Büyük miktarda küçük nesnenin bellekte verimli bir şekilde kullanılmasını sağlar.
   Proxy: Bir nesneye erişimi kontrol eden bir vekil sağlar.
-  Yaratıcı (Creational) Tasarım Kalıpları: Bu kalıplar, nesne yaratma süreçlerini kontrol eder ve esnek hale getirir. Örnekler:
 
-Abstract Factory: İlgili nesneler ailesini oluşturmak için arayüz sağlar.
+Yaratıcı (Creational) Tasarım Kalıpları: Bu kalıplar, nesne yaratma süreçlerini kontrol eder ve esnek hale getirir. Örnekler:
+	Abstract Factory: İlgili nesneler ailesini oluşturmak için arayüz sağlar.
   Builder: Karmaşık nesnelerin adım adım oluşturulmasını sağlar.
   Factory Method: Nesne oluşturmayı alt sınıflara bırakan bir arayüz sağlar.
   Prototype: Bir nesnenin mevcut bir örneğini klonlayarak yeni nesneler oluşturur.
