@@ -19,6 +19,13 @@ public class Test {
       PrototypePattern shape2 = ShapeCache.getShape("2");
       System.out.println("Shape:"+shape2.getType());
       shape2.draw();
-    	
+    
+      //Builder
+      BuilderPattern pizza= new BuilderPattern
+    		  .PizzaBuild("", "", 1)
+    		  .setPiece(2)
+    		  .build();
+    
+      
 	}
 }

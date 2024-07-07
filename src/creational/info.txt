@@ -1,6 +1,13 @@
-Yaratıcı tasarım kalıpları (creational design patterns),  nesne yaratma sürecini soyutlayarak, nesnelerin doğrudan yaratılması yerine belirli kurallar çerçevesinde oluşturulmasını sağlar. Bu sayede yazılımın esnekliği ve yeniden kullanılabilirliği artar.
+Yaratıcı tasarım kalıpları (creational design patterns),  nesne yaratma sürecini soyutlayarak, nesnelerin doğrudan yaratılması yerine belirli kurallar çerçevesinde oluşturulmasını sağlar. 
+Bu sayede yazılımın esnekliği ve yeniden kullanılabilirliği artar.
 
 
 Singleton tadarım deseni, Bir sınıfın sadece bir örneğinin olmasını garanti eder ve bu örneğe global erişim sağlar.
 
-Prototype tasarım deseni, bir nesnenin mevcut bir örneğinden (prototip) yeni nesneler oluşturmayı amaçlayan yaratıcı bir tasarım desenidir. Bu desen, nesne yaratma maliyetini azaltır ve daha karmaşık nesnelerin daha hızlı ve verimli bir şekilde oluşturulmasını sağlar. Prototype deseni, özellikle nesnelerin oluşturulmasının pahalı olduğu durumlarda kullanışlıdır.
+Prototype tasarım deseni, bir nesnenin mevcut bir örneğinden (prototip) yeni nesneler oluşturmayı amaçlayan yaratıcı bir tasarım desenidir. 
+Bu desen, nesne yaratma maliyetini azaltır ve daha karmaşık nesnelerin daha hızlı ve verimli bir şekilde oluşturulmasını sağlar. 
+Prototype deseni, özellikle nesnelerin oluşturulmasının pahalı olduğu durumlarda kullanışlıdır.
+
+Builder tasarım deseni, nesne oluşturma sürecini daha esnek hale getirmek ve karmaşık nesnelerin adım adım oluşturulmasını sağlamak için kullanılan bir yaratıcı tasarım desenidir. 
+Bu desen, özellikle bir nesnenin oluşturulması için çok sayıda yapılandırma parametresi veya adımı varsa kullanışlıdır. 
+Builder deseni, nesne yapılandırma sürecini ayrı bir yapılandırma sınıfına (builder sınıfı) taşır ve bu sayede ana nesne sınıfı üzerinde karmaşıklığı azaltır.
