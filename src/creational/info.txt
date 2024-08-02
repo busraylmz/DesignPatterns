@@ -11,3 +11,7 @@ Prototype deseni, özellikle nesnelerin oluşturulmasının pahalı olduğu duru
 Builder tasarım deseni, nesne oluşturma sürecini daha esnek hale getirmek ve karmaşık nesnelerin adım adım oluşturulmasını sağlamak için kullanılan bir yaratıcı tasarım desenidir. 
 Bu desen, özellikle bir nesnenin oluşturulması için çok sayıda yapılandırma parametresi veya adımı varsa kullanışlıdır. 
 Builder deseni, nesne yapılandırma sürecini ayrı bir yapılandırma sınıfına (builder sınıfı) taşır ve bu sayede ana nesne sınıfı üzerinde karmaşıklığı azaltır.
+
+Factory Pattern (Fabrika Deseni), nesne oluşturma işlemlerini merkezi bir yerde yönetmeyi sağlar. 
+Bu desen, nesne oluşturma sürecini istemci sınıftan ayırarak esneklik ve bakım kolaylığı sağlar. 
+Factory Pattern, bir arayüz veya bir sınıf üzerinde durur ve bu arayüz veya sınıf üzerinden farklı alt sınıflar veya uygulamaları üreten metodlar (fabrikalar) sağlar.

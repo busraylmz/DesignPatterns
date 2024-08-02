@@ -26,6 +26,13 @@ public class Test {
     		  .setPiece(2)
     		  .build();
     
+      //Factory
+      CouponFactory factory= new CouponFactory();
+      Coupon coupon1=factory.getCoupon(199);
+      System.out.println(coupon1.code()+" "+coupon1.message());
+      
+      Coupon coupon2=factory.getCoupon(43);
+      System.out.println(coupon2.code()+" "+coupon2.message());
       
 	}
 }
